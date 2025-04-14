@@ -9,15 +9,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // 이미지 최적화 비활성화 (Error: Image Optimization using the default loader is not compatible with `{ output: 'export' }`.)
   },
-  //CORS
-  // async rewrites() {
-  //   return [
-  //     {
-  //       source: "/api/history/:path*",
-  //       destination: "http://172.168.20.152:8000/:path*",
-  //     },
-  //   ];
-  // },
 };
 
 export default nextConfig;
